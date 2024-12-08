@@ -11,15 +11,15 @@
     <button id="add-newbook">Add a new book</button>
     <div id="container"></div>
     <dialog id="hidden">
-        <button id="close-button">Close</button>
-        <form method="dialog" >
+        <button id="close-button">X</button>
+        <form method="dialog" id="book-details">
             <label for="title">Title</label><input id="title" type="text">
             <label for="author">Author</label><input id="author" type="text">
             <label for="pages">Pages</label><input id="pages" type="number">
             <label for="status">Read </label><input id="status" type="radio" value="Read" name="status" checked>
             <label for="status">Not read </label><input id="status" type="radio" value="Not-read" name="status">
 
-            <button id="okbtn">Add</button>
+            <button id="okbtn">Add</button> 
         </form>
     </dialog>
    <script src="app.js"></script>

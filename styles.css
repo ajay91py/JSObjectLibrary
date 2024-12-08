@@ -6,3 +6,18 @@ align-items: center;
 .hidden{
     display: none;
 }
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,0.2fr));
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-items: center;
+    align-items:center ;
+}
+.card{
+    background-color: brown;
+    border: 1px solid burlywood;
+   padding: 10px;
+
+}
