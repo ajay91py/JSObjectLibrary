@@ -7,17 +7,33 @@ align-items: center;
     display: none;
 }
 #container{
+    padding: 20px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,0.2fr));
+    grid-template-columns: repeat(auto-fit,minmax(150px,0.1fr));
     grid-template-rows: auto;
-    gap: 10px;
-    justify-items: center;
-    align-items:center ;
+   column-gap: 5px;
+    justify-content: center;
+    align-content: center;
 }
 .card{
     background-color: brown;
     border: 1px solid burlywood;
    padding: 10px;
+   color: white;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
 
+}
+.status{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.edtbtn{
+    height: 50%;
 }
